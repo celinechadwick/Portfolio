@@ -137,6 +137,7 @@ width:100%;
 .portfolio{
   margin-top:5%;
   text-align: center;
+  margin: 0 auto;
   line-height: 1.5em;
   color:rgb(57,58,51);
 
@@ -145,7 +146,7 @@ width:100%;
 }
 
 .see-button{
-  width:150px;
+  width:160px;
   height:39px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -190,8 +191,10 @@ width:100%;
 
 .skills-image{
   /* width:100%; */
-max-height: 100px;
 max-width: 200px;
+margin: 0 auto;
+text-align: center;
+max-height: 100px;
 }
 
 .footer-header{
@@ -281,11 +284,13 @@ li{
     }
     .portfolio{
       font-size: 12px;
-      padding: 0 25%
 
     }
     .skills-image{
-      max-width: 100px;
+      max-width: 80px;
+      height: 50px;
+
+      text-align: center;
     }
 
     .footer-section{
@@ -303,7 +308,7 @@ li{
       text-align: center;
     }
     .contact-image{
-      max-height: 35px;
+      max-height: 25px;
       margin: 0 10px;
       /* margin:0 auto; */
     }
