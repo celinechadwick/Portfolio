@@ -1,6 +1,13 @@
+
+
 body{
   box-sizing: border-box;
-  width:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+
 }
 .banner{
   width:100%;
@@ -43,7 +50,7 @@ h1{
   width:150px;
   height:40px;
   text-align: center;
-  background-color: rgb(254,232,52);
+  background-color: #fedb00;
   color:white;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
@@ -62,21 +69,25 @@ h1{
   width:100%;
   height:24%;
   padding-bottom:6%;
+
 }
 .about-section{
+  background-color:rgb(226,225,219);
+  color: rgb(57,58,51);
   width:100%;
   height:20%;
   padding-bottom:5%;
-  padding-top: 5%;
-  background-color: lightGrey;
+  padding-top: 2%;
+  background-color:rgb(245,245,235);
 
 }
 .section-header{
   font-size:35px;
-  margin:7% 7% 4% 7%;
+  margin:4% 7% 4% 7%;
   letter-spacing:.02em;
   text-transform: uppercase;
   font-weight: 500;
+  color:rgb(57,58,51);
 }
 .about-p{
   font-family: 'Montserrat', sans-serif;
@@ -92,6 +103,8 @@ font-family: 'Montserrat', sans-serif;
 width:100%;
  margin:auto;
  padding-bottom:6%;
+ color: rgb(57,58,51);
+
 
 }
 
@@ -120,20 +133,23 @@ width:100%;
   border:1px solid grey;
 
 }
-.portfolio-image:hover{
-  background-color: grey;
-}
+
 .portfolio{
+  margin-top:5%;
   text-align: center;
+  line-height: 1.5em;
+  color:rgb(57,58,51);
+
+
   /* margin-bottom:2%; */
 }
 
 .see-button{
   width:150px;
-  height:40px;
+  height:39px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -141,16 +157,15 @@ width:100%;
   /* border-radius: 5px; */
   border: 1px solid black;
   margin:15px  auto;
+  padding:3px;
+
 }
-.see-button-text{
-  padding-top:9px;
-  /* background-color: red; */
-}
+
 .button:hover{
   background-color: lightgrey;
 }
 .see-button:hover{
-  background-color: lightGrey;
+  background-color: rgb(226,225,219);
 }
 .col-3-container{
 font-family: 'Montserrat', sans-serif;
@@ -174,14 +189,17 @@ width:100%;
 }
 
 .skills-image{
-  width:100%;
-  max-width: 150px;
-  /* margin-left:17%; */
+  /* width:100%; */
+max-height: 100px;
+max-width: 200px;
 }
 
 .footer-header{
   font-size:35px;
   /* margin-left:7%; */
+  margin-right:7%;
+  margin-bottom: 2%;
+  color: rgb(57,58,51);
  letter-spacing:.02em;
   text-transform: uppercase;
   font-weight: 500;
@@ -189,14 +207,15 @@ width:100%;
 .footer-section{
   width:100%;
   height:10%;
-  padding:5% 7% 3% 7%;
-  /* background-color: lightGrey; */
+  padding:5% 0 3% 7%;
+  background-color:rgb(226,225,219);
 }
 
 .contact-image{
   margin:5% 2% 2% 0;
-  max-width: 50px;
+  max-height: 50px;
 }
+
 
 ul{
   list-style-type: none;
@@ -271,19 +290,21 @@ li{
 
     .footer-section{
       margin:0 auto;
-      width:47%;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     .footer-header{
       font-size:25px;
       text-align: center;
+      margin: 6% auto;
     }
     .image-container{
       text-align: center;
     }
     .contact-image{
-      max-width: 30px;
-      margin: 0 15px;
+      max-height: 35px;
+      margin: 0 10px;
       /* margin:0 auto; */
     }
 
