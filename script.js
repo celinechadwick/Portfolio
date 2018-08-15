@@ -24,12 +24,15 @@ $("#photosite").click(function() {
   window.open('http://celinechadwickphotography.com');
 });
 
-$("#tvflix").click(function() {
-  window.open('https://tvflix-front.herokuapp.com/shows');
+$("#nysna").click(function() {
+  window.open('http://nysnavotes.surge.sh');
 });
 
 $("#artbook").click(function() {
   window.open('https://artbook-front.herokuapp.com/');
+});
+$("#rascon").click(function() {
+  window.open('http://rascon.nyc');
 });
 
 

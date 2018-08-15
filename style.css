@@ -103,6 +103,7 @@ width:100%;
   padding-top:4%;
   padding-left: 1%;
   padding-right: 1%;
+  text-align: center;
   /* border-top: 1px solid grey; */
 
 }
@@ -115,7 +116,9 @@ width:100%;
 .portfolio-image{
   /* width:100%; */
   max-width: 200px;
-  margin:0 0 0 25%;
+  margin:0 auto;
+  border:1px solid grey;
+
 }
 .portfolio-image:hover{
   background-color: grey;
@@ -135,7 +138,7 @@ width:100%;
   letter-spacing: .12em;
   text-transform: uppercase;
   line-height: 1.5em;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   border: 1px solid black;
   margin:15px  auto;
 }
@@ -161,16 +164,19 @@ width:100%;
   width:20%;
   float: left;
   margin-left:1%;
-  margin-right:2%;
+  margin-right:1%;
   padding-top:2%;
   padding-left: 1%;
   padding-right: 1%;
+}
+#portfolio-row-1, #portfolio-row-2 {
+  text-align: center;
 }
 
 .skills-image{
   width:100%;
   max-width: 150px;
-  margin-left:17%;
+  /* margin-left:17%; */
 }
 
 .footer-header{
@@ -188,9 +194,8 @@ width:100%;
 }
 
 .contact-image{
-  margin:1% 4% 1% 0;
+  margin:5% 2% 2% 0;
   max-width: 50px;
-  margin-top:5%;
 }
 
 ul{
@@ -252,11 +257,13 @@ li{
     }
     .portfolio-image{
       max-width: 150px;
-      margin:0 0 0 30%;
+      margin:0 auto;
 
     }
     .portfolio{
       font-size: 12px;
+      padding: 0 25%
+
     }
     .skills-image{
       max-width: 100px;
@@ -272,11 +279,11 @@ li{
       text-align: center;
     }
     .image-container{
-      /*width:150px;
-      margin:0 auto*/
+      text-align: center;
     }
     .contact-image{
-      max-width: 40px;
+      max-width: 30px;
+      margin: 0 15px;
       /* margin:0 auto; */
     }
 
